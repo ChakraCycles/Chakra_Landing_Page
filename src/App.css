@@ -1,38 +1,344 @@
+:root {
+  --G-p-font-weight: 400;
+  --G-p-line-height: 100%;
+  --font-family: "Arial", "Helvetica", sans-serif;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: var(--font-family);
+}
+p{
+  color:#626262;
+}
+
 .App {
   text-align: center;
+  font-size: 1.2rem; /* Relative font size */
+  color: #626262;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.hero-section {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.hero-section h1 {
+  font-size: 48px;
+  padding: 0;
+  margin-bottom: .75rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.hero-section p {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.strong{
+  font-weight: 600;
+}
+.video-section {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.chakra-section {
+  background: #EEEEEE;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.chakra-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.chakra-grid div {
+  background: transparent;
+}
+
+.chakra-phase {
+  margin: 2% auto;
+}
+
+.chakra-phases h2 {
+  font-size: 2.5rem;
+  color: #333333;
+}
+
+.chakra-sec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%; /* Increase for smaller screens */
+  margin: 0 auto;
+}
+.chakra-sec div{
+  max-width: 70%;
+}
+.chakra-head {
+  color: #333333;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -0.025rem;
+  padding: 0;
+  margin: 0;
+}
+
+.chakra-image-main {
+  width: 45%;
+}
+
+.chakra-image {
+  width: 15%;
+  height: 15%;
+  padding: 0 20px;
+}
+
+.chakra-sec p {
+  font-size: 1.4rem;
+  text-align: left;
+}
+
+.header {
+  text-align: center;
+}
+
+.hero-section {
+  padding: 20px;
+  background-image: url('https://storage.mlcdn.com/account_image/1013434/frp6gJCtcQWlBTZqEr84LnQAIrjCte4q2IXsquI8.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  height: 400px;
+}
+
+.second-hero {
+  padding: 20px;
+  background-image: url('https://storage.mlcdn.com/account_image/1013434/Aqngt0shhhp974HBQV81wHzaEuDIPyyBDe2v6zyW.png');
+  background-size: cover;
+  opacity: 1;
+  height: auto;
+}
+
+.header-image {
+  padding-top: 50px;
+  width: 27%;
+  object-fit: cover;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero-section p {
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+
+.video-section {
+  margin-top: 30px;
+}
+
+.video{
+  height:600px
+}
+.text-section {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text-section p {
+  margin-bottom: 16px;
+  font-size: 1.4rem;
+  font-weight: var(--G-p-font-weight);
+  line-height: var(--G-p-line-height);
+}
+
+.text-section p.bold {
+  font-weight: 650;
+}
+
+
+.section-component {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-component div{
+  max-width: 47%;
+}
+.image-container {
+  flex: 1 1 100%; /* Make responsive */
+}
+
+.section-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.text-container {
+  flex: 1 1 100%; /* Responsive */
+  padding-left: 20px;
+  text-align: left;
+  padding: 0 15px;
+}
+
+.text-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.text-container p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-image: url('https://storage.mlcdn.com/account_image/1013434/f5riCfxJHa3aWmIDflNP41XRtVA2ZllhgVoqjgxB.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  height: 600px;
+}
+
+.footer-p {
+  max-width: 80%;
+  text-align: center;
+}
+
+.footer-section .footer-p p {
+  font-size: 1.8rem;
+  color: #f9f9f9;
+}
+
+/* Media Queries for responsive design */
+@media (max-width: 1024px) {
+  .hero-section h1 {
+    font-size: 2rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .chakra-sec {
+    width: 95%;
+  }
+
+  .text-section, .section-component {
+    width: 100%;
+  }
+  .video{
+    height:400px
+  }
+  
+.hero-section {
+  height: 350px;
+}
+.hero-section h1 {
+  font-size: 2.6rem;
+}
+
+.hero-section p {
+  font-size: 1.3rem;
+}
+
+
+
+
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 1.8rem;
+  }
+  .section-component div {
+    max-width: 90%;
+}
+.hero-section {
+  height: 300px;
+}
+
+  
+.footer-p {
+  max-width: 90%;
+}
+.footer-section .footer-p p{
+  font-size: 18px;
+  line-height: 1.5; 
+}
+  .chakra-sec {
+    flex-direction: column;
+  }
+
+   .chakra-image {
+    width: 50%;
+  }
+  .chakra-image-main{
+    width: 90%;
+  }
+
+  .header-image {
+    width: 70%;
+  }
+  .text-section, .section-component{
+    flex-direction: column;
+  }
+  .chakra-head {
+    font-size: 1.2rem;
+  }
+  .chakra-sec div {
+    max-width: 90%;
+}
+}
+
+@media (max-width: 480px) {
+  .hero-section h1 {
+    font-size: 1.5rem;
+  }
+
+  
+.hero-section {
+  height: 270px;
+}
+
+  .video{
+    height:300px
+  }
+  .hero-section p, .chakra-sec p {
+    font-size: 1.2rem;
+  }
+
+  .text-container{
+    padding: 0;
+    width: 90%;
+    text-align: center;
+  }
+  .chakra-phases h2 {
+    font-size: 2rem;
   }
 }
