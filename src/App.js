@@ -69,8 +69,8 @@ function App() {
       <div>
         <SectionComponent
           imageSrc="https://storage.mlcdn.com/account_image/1013434/DSTGSv7sxSLwl2CYyYYBwCL9q719tiNqG55oYgak.png"
-          title="Chaturashrama: The Grand Divisions of Human Life"
-          text={`<b>Combining your Marga Dharma number with these three chakra phases provides a comprehensive understanding of your life's direction.</b><br/><br/> By aligning with these energies, you can navigate through key life stages with greater clarity and purpose, making informed decisions that resonate with your personal energy flow.<br/><br/><b> You will gain a profound understanding of your energy at any moment in your life - past, present, and future.</b><br> The more you align with your energy field, the more your life becomes a natural flow, filled with synchronicities.`}
+          title="Integrating Your Marga Dharma"
+          text={`<b>Combining your Marga Dharma number with these three chakra phases provides a comprehensive understanding of your life's direction.</b><br/><br/> By aligning with these energies, you can navigate through key life stages with greater clarity and purpose, making informed decisions that resonate with your personal energy flow.<br/><br/><b> You will gain a profound understanding of your energy at any moment in your life - past, present, and future.</b><br/><br/> The more you align with your energy field, the more your life becomes a natural flow, filled with synchronicities.`}
         />
       </div>
       <Footer />
