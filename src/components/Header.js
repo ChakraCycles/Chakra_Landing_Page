@@ -1,6 +1,6 @@
 import React from 'react';
 import BannerImage from '../asset/header.webp';
-function Header() {
+function Header({ userData }) {
   return (
     <header className="header">
       <div className="hero-section">
@@ -11,8 +11,7 @@ function Header() {
       <div className='second-hero'>
        <div className="text-section">
         <p className='strong bold'>
-          
-          Welcome back!
+          Welcome back {userData.name}!
         </p>
         <p>
           In our previous conversation, we explored your Marga Dharma Number.</p><p className='bold'>

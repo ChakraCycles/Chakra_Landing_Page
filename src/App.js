@@ -25,6 +25,7 @@ function App() {
     chakra_title_54_81: '',
     chakra_description_54_81: '',
     chakra_image_54_81: '',
+    name: ''
   });
 
   const query = useQuery(); // Assuming you are using something like `useLocation` or similar
@@ -53,7 +54,7 @@ function App() {
   
   return (
     <div className="App">
-      <Header />
+      <Header userData={userData}/>
       <div>
         <SectionComponent
           imageSrc="https://storage.mlcdn.com/account_image/1013434/wdtb04jVMOxZicf1KTkYVGU2Jvsi19o7hMkn3XqM.png"
