@@ -31,6 +31,8 @@ function ChakraPhases({ userData }) {
         className="chakra-image-main"
         alt="Main Chakra Image"
       />
+      <p>To recap our last email; <u className='bold'>Your Marga Dharma Number is {userData.marganumber}</u>- Ruled by {userData.rulechakra}</p>
+      <p>Below are 3 Chakra energies that influence the 3 grand divisions of your life.</p>
 
       {/* Only show the chakra phases after the delay */}
       {showChakraData ? (

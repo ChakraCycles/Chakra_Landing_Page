@@ -42,7 +42,7 @@ p{
 }
 .video-section {
   margin: 20px auto;
-  width: 80%;
+  width: 95%;
 }
 
 .chakra-section {
@@ -168,7 +168,9 @@ p{
 .text-section p.bold {
   font-weight: 650;
 }
-
+u.bold{
+  font-weight: 650;
+}
 
 .section-component {
   display: flex;
@@ -288,7 +290,7 @@ p{
   max-width: 90%;
 }
 .footer-section .footer-p p{
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5; 
 }
   .chakra-sec {
@@ -327,7 +329,7 @@ p{
 }
 
   .video{
-    height:300px
+    height:220px
   }
   .hero-section p, .chakra-sec p {
     font-size: 1.2rem;
@@ -336,7 +338,7 @@ p{
   .text-container{
     padding: 0;
     width: 90%;
-    text-align: center;
+    text-align:left;
   }
   .chakra-phases h2 {
     font-size: 2rem;

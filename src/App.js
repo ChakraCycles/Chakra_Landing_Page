@@ -25,7 +25,8 @@ function App() {
     chakra_title_54_81: '',
     chakra_description_54_81: '',
     chakra_image_54_81: '',
-    name: ''
+    name: '',
+    rulechakra:''
   });
 
   const query = useQuery(); // Assuming you are using something like `useLocation` or similar
@@ -59,7 +60,7 @@ function App() {
         <SectionComponent
           imageSrc="https://storage.mlcdn.com/account_image/1013434/wdtb04jVMOxZicf1KTkYVGU2Jvsi19o7hMkn3XqM.png"
           title="Chaturashrama: The Grand Divisions of Human Life"
-          text={`<b>In Hindu culture, life is divided into four stages, known as Āśrama in Sanskrit.</b><br /> We are each influenced by one chakra energy that becomes more open within us in each stage, shaping our lives and personalities as we grow. <br /><b>The fourth stage is our Marga Dharma, or life path number, which becomes activated when we step onto our spiritual path or begin to realize our life's purpose.</b><br /> Understanding the chakra energies that shape these stages helps you align with the natural rhythms of your life.`}
+          text={`<b>In Hindu culture, life is divided into four stages, known as Āśrama in Sanskrit.</b><br /><br /> We are each influenced by one chakra energy that becomes more open within us in each stage, shaping our lives and personalities as we grow. <br /><br /><b>The fourth stage is our Marga Dharma, or life path number, which becomes activated when we step onto our spiritual path or begin to realize our life's purpose.</b><br /><br /> Understanding the chakra energies that shape these stages helps you align with the natural rhythms of your life.`}
         />
       </div>    
       <section className="chakra-section">
@@ -69,7 +70,7 @@ function App() {
         <SectionComponent
           imageSrc="https://storage.mlcdn.com/account_image/1013434/DSTGSv7sxSLwl2CYyYYBwCL9q719tiNqG55oYgak.png"
           title="Chaturashrama: The Grand Divisions of Human Life"
-          text={`<b>Combining your Marga Dharma number with these three chakra phases provides a comprehensive understanding of your life's direction.</b><br> By aligning with these energies, you can navigate through key life stages with greater clarity and purpose, making informed decisions that resonate with your personal energy flow.<br><b> You will gain a profound understanding of your energy at any moment in your life - past, present, and future.</b><br> The more you align with your energy field, the more your life becomes a natural flow, filled with synchronicities.`}
+          text={`<b>Combining your Marga Dharma number with these three chakra phases provides a comprehensive understanding of your life's direction.</b><br/><br/> By aligning with these energies, you can navigate through key life stages with greater clarity and purpose, making informed decisions that resonate with your personal energy flow.<br/><br/><b> You will gain a profound understanding of your energy at any moment in your life - past, present, and future.</b><br> The more you align with your energy field, the more your life becomes a natural flow, filled with synchronicities.`}
         />
       </div>
       <Footer />
