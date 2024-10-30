@@ -5,7 +5,7 @@ function Header({ userData }) {
     <header className="header">
       <div className="hero-section">
         <img src={BannerImage} alt="Header Banner" className="header-image" />
-        <h1>The Grand Divisions of Life ehehehe</h1>
+        <h1>The Grand Divisions of Life</h1>
         <p>Explore The Four Key Phases That Influence Your Life’s Journey</p>
       </div>
       <div className='second-hero'>
