@@ -19,7 +19,7 @@ function ChakraPhases({ userData }) {
     if (chakraNumber === 2) return `${chakraNumber}nd`;
     if (chakraNumber === 3) return `${chakraNumber}rd`;
     return `${chakraNumber}th`;
-}
+  }
 
 
 
@@ -31,7 +31,7 @@ function ChakraPhases({ userData }) {
         className="chakra-image-main"
         alt="Main Chakra Image"
       />
-      <p>To recap our last email; <u className='bold'>Your Marga Dharma Number is {userData.marganumber}</u>- Ruled by {userData.rulechakra}</p>
+      <p>To recap our last email;<br /> <u className='bold'>Your Marga Dharma Number is {userData.marganumber}</u>- <br />Ruled by {userData.rulechakra}</p>
       <p>Below are 3 Chakra energies that influence the 3 grand divisions of your life.</p>
 
       {/* Only show the chakra phases after the delay */}
@@ -86,6 +86,16 @@ function ChakraPhases({ userData }) {
               </div>
             </div>
           </div>
+          <div>
+            {/* <hr style={{ border: '8px dotted #727272', width: '20%', margin: '20px auto' }} /> */}
+            <p  style={{ fontWeight: 900 }}> -------</p>
+            <p style={{ fontWeight: 400, color: '#000000' }}>
+              It is worth noting that these are very brief snapshots of each life phase and chakra energy!
+            </p>
+            <p  style={{ fontWeight: 900 }}> -------</p>
+          </div>
+
+
         </div>
       ) : (
         <p>Loading chakra phases...</p> // Message to display during the wait
