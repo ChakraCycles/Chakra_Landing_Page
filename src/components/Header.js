@@ -1,16 +1,17 @@
 import React from 'react';
-import BannerImage from '../asset/header.webp';
+import BannerImage from '../asset/header.png';
 function Header({ userData }) {
   return (
     <header className="header">
       <div className="hero-section">
         <img src={BannerImage} alt="Header Banner" className="header-image" />
         <h1>The Grand Divisions of Life</h1>
+        <p>   ..........   </p>
         <p>Explore The Four Key Phases That Influence Your Life’s Journey</p>
       </div>
       <div className='second-hero'>
        <div className="text-section">
-        <p className='strong bold'>
+        <p className='strong bold' style={{color:'#002855'}}>
           Welcome back {userData.name}!
         </p>
         <p>

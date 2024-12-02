@@ -1,16 +1,19 @@
 :root {
   --G-p-font-weight: 400;
   --G-p-line-height: 100%;
-  --font-family: "Arial", "Helvetica", sans-serif;
+  --font-family: "Merriweather", "Arial", "Helvetica", sans-serif;
+  --font-family-body: "Inter", "Arial", "Helvetica", sans-serif;
+  --h2-color:#002855;
+  --G-h2-font-size: 40px;
+
 }
 
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: var(--font-family);
   margin: 0;
   padding: 0;
   width: 100%;
-  font-family: var(--font-family);
 }
 p{
   color:#626262;
@@ -27,14 +30,15 @@ p{
 }
 
 .hero-section h1 {
-  font-size: 48px;
+  font-size: 44px;
+  font-weight: light;
   padding: 0;
   margin-bottom: .75rem;
 }
 
 .hero-section p {
-  font-size: 1.6rem;
-  font-weight: 500;
+  font-size: 24px;
+  font-weight: light;
 }
 
 .strong{
@@ -66,8 +70,8 @@ p{
 }
 
 .chakra-phases h2 {
-  font-size: 2.5rem;
-  color: #333333;
+  font-size:var(--G-h2-font-size);
+  color:var(--h2-color)
 }
 
 .chakra-sec {
@@ -82,8 +86,8 @@ p{
   max-width: 70%;
 }
 .chakra-head {
-  color: #333333;
-  font-size: 2.4rem;
+  color: var(--h2-color);
+  font-size:40px;
   font-weight: 600;
   line-height: 100%;
   letter-spacing: -0.025rem;
@@ -102,7 +106,8 @@ p{
 }
 
 .chakra-sec p {
-  font-size: 1.4rem;
+  font-size:18px;
+  font-family: var(--font-family-body);
   text-align: left;
 }
 
@@ -160,13 +165,15 @@ p{
 
 .text-section p {
   margin-bottom: 16px;
-  font-size: 1.4rem;
+  font-size: 18px;
+  font-family: var(--font-family-body);
   font-weight: var(--G-p-font-weight);
   line-height: var(--G-p-line-height);
 }
 
 .text-section p.bold {
   font-weight: 650;
+  font-size: 24px;
 }
 u.bold{
   font-weight: 650;
@@ -202,12 +209,14 @@ u.bold{
 }
 
 .text-container h2 {
-  font-size: 1.8rem;
+  font-size: var(--G-h2-font-size);
   margin-bottom: 10px;
+  color:var(--h2-color)
 }
 
 .text-container p {
-  font-size: 1.4rem;
+  font-size: 18px;
+  font-family: var(--font-family-body);
   line-height: 1.6;
 }
 
@@ -237,7 +246,8 @@ u.bold{
 }
 
 .footer-section .footer-p p {
-  font-size: 1.8rem;
+  font-size:18px;
+  font-family: var(--font-family-body);
   color: #f9f9f9;
 }
 
@@ -341,6 +351,7 @@ u.bold{
     text-align:left;
   }
   .chakra-phases h2 {
-    font-size: 2rem;
+    font-size: var(--G-h2-font-size);
+    color:var(--h2-color)
   }
 }
