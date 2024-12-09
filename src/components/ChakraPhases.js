@@ -31,7 +31,7 @@ function ChakraPhases({ userData }) {
         alt="Main Chakra Image"
       />
       <p>
-        To recap on our last email{userData.name},<br />{" "}
+        To recap on our last email {userData.name},<br />{" "}
         <u className="bold">
           Your Marga Dharma Number is {userData.marganumber}
         </u>
